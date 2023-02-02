@@ -16,7 +16,7 @@ export default function Card({ children, span = 1, className, id }: React.PropsW
 
   return (
     <div id={id} className={cn([
-      "min-w-[100px] min-h-[250px] flex flex-col justify-center items-center rounded-2xl bg-white p-10 overflow-hidden hover:scale-95 duration-500",
+      "min-w-[100px] min-h-[250px] flex flex-col justify-center items-center rounded-2xl bg-white p-10 overflow-hidden hover:scale-[0.98] duration-500",
       spanClass,
       className
     ])}>
