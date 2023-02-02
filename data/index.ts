@@ -1,10 +1,10 @@
 export const profile = {
+  name: "gustavo peña",
   email: "gustavo.pema@gmail.com",
   avatar: "/avatar.jpg",
-  eyebrow: "9dos",
   title: "frontend developer",
   content:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "i'm a frontend developer with 3+ years of experience developing web applications with Javascript, Vue.js and React, following best practices and working closely with the UI team to match beautiful designs with well-written code. Driven to deliver the best software to make users happy",
   links: {
     linkedin: "https://www.linkedin.com/in/gustavo-s-pena/",
     github: "https://github.com/gustavvopenna",
@@ -23,4 +23,5 @@ export const profile = {
       image: "/vercel.svg",
     },
   ],
+  cv_link: "https://res.cloudinary.com/dkr0nb41v/image/upload/v1675364875/docs/GUSTAVO_PEN%CC%83A_RESUME_PDF_ulrlgi.pdf"
 };

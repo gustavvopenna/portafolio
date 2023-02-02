@@ -1,12 +1,17 @@
-import { cn } from '@/helpers'
+import { cn } from "@/helpers";
 
 interface CardProps {
-  span?: 1 | 2 | 3 | 4,
-  className?: string,
-  id?: string
+  span?: 1 | 2 | 3 | 4;
+  className?: string;
+  id?: string;
 }
 
-export default function Card({ children, span = 1, className, id }: React.PropsWithChildren<CardProps>) {
+export default function Card({
+  children,
+  span = 1,
+  className,
+  id,
+}: React.PropsWithChildren<CardProps>) {
   const spanClass = {
     "col-span-1": span === 1,
     "col-span-2": span === 2,
@@ -15,12 +20,15 @@ export default function Card({ children, span = 1, className, id }: React.PropsW
   };
 
   return (
-    <div id={id} className={cn([
-      "min-w-[100px] min-h-[250px] flex flex-col justify-center items-center rounded-2xl bg-white p-10 overflow-hidden hover:scale-[0.98] duration-500",
-      spanClass,
-      className
-    ])}>
+    <div
+      id={id}
+      className={cn([
+        "min-w-[100px] min-h-[250px] flex flex-col justify-center items-center rounded-2xl bg-white p-10 overflow-hidden hover:scale-[0.98] duration-500",
+        spanClass,
+        className,
+      ])}
+    >
       {children}
     </div>
-  )
+  );
 }

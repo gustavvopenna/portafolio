@@ -8,7 +8,7 @@ interface HighlightsProps {
 export default function Highlights({ x, y }: HighlightsProps) {
 
   const translateX = useTransform(x, [0, 1000], [-200, 700])
-  const translateY = useTransform(y, [0, 1000], [-200, 700])
+  const translateY = useTransform(y, [0, 2000], [-200, 1400])
 
   return (
     <>

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { Poppins } from "@next/font/google";
 import { useMotionValue } from "framer-motion";
@@ -28,11 +28,11 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <head />
       <body
         className={cn([
-          "text-slate-900 bg-slate-900 relative",
+          "text-slate-900 bg-slate-900 relative cursor-default",
           poppins.className,
         ])}
         onMouseMove={handleMouseMove}
