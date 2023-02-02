@@ -30,7 +30,7 @@ export default function SocialCard({ name, link }: SocialCardProps) {
       <Card
         className={[
           options[name].color,
-          "flex justify-center text-center text-white hover:scale-95 duration-500",
+          "flex justify-center text-center text-white",
         ]}
       >
         <Icon className="w-32" />

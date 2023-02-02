@@ -9,6 +9,8 @@ export default function Clock() {
     const timer = setInterval(() => {
       const currentTime = new Date().toLocaleTimeString("es-MX", {
         hourCycle: "h24",
+        hour: "2-digit",
+        minute: "2-digit",
       });
       setTime(currentTime);
       return () => clearInterval(timer);
