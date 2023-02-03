@@ -26,7 +26,7 @@ export default function SocialCard({ name, link }: SocialCardProps) {
   const Icon = options[name].Icon;
 
   return (
-    <a href={link} target="_blank" rel="noreferrer">
+    <a href={link} target="_blank" rel="noreferrer" aria-label={name}>
       <Card
         className={[
           options[name].color,
