@@ -3,6 +3,7 @@
 import { Poppins } from "@next/font/google";
 import { useMotionValue } from "framer-motion";
 
+import { AnalyticsWrapper } from "@/components/sections/Analytics"
 import Navbar from "@/components/molecules/Navbar";
 import Highlights from "@/components/molecules/Highlights";
 import { cn } from "@/helpers";
@@ -41,6 +42,7 @@ export default function RootLayout({
         <div className="relative z-10 max-w-6xl px-8 py-4 mx-auto">
           <Navbar />
           {children}
+          <AnalyticsWrapper />
         </div>
       </body>
     </html>
