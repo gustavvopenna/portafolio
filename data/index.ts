@@ -2,9 +2,11 @@ export const profile = {
   name: "gustavo peña",
   email: "gustavo.pema@gmail.com",
   avatar: "/avatar.jpg",
-  title: "frontend developer",
+  eyebrow: "hi, my name is Gustavo Peña",
+  title: "I build things for the web",
+  subtitle: "i build things for the web",
   content:
-    "i'm a frontend developer with 3+ years of experience developing web applications with Javascript, Vue.js and React, following best practices and working closely with the UI team to match beautiful designs with well-written code. Driven to deliver the best software to make users happy",
+    "i'm a <strong>frontend developer</strong> with 3+ years of experience developing web applications with Javascript, Vue.js and React, following best practices and working closely with UI teams to match beautiful designs with well-written code",
   links: {
     linkedin: "https://www.linkedin.com/in/gustavo-s-pena/",
     github: "https://github.com/gustavvopenna",

@@ -35,9 +35,12 @@ export default function PresentationCard({
       span={2}
       className="items-start hover:scale-100 backdrop-blur-sm bg-white/60"
     >
-      {eyebrow && <span className="text-slate-800">{eyebrow}</span>}
-      <h1 className="mt-1 mb-2 text-5xl font-semibold">{title}</h1>
-      <p className="mb-6 text-slate-700">{content}</p>
+      {eyebrow && <span className="text-slate-700">{eyebrow}</span>}
+      <h1 className="mt-1 mb-4 text-5xl font-semibold">{title}</h1>
+      <p
+        className="mb-6 text-slate-800"
+        dangerouslySetInnerHTML={{ __html: content }}
+      ></p>
       {cv_link && (
         <motion.a
           whileHover="hover"
@@ -63,7 +66,7 @@ export default function PresentationCard({
               d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
             />
           </svg>
-          <span>Download Resume</span>
+          <span>download resume</span>
         </motion.a>
       )}
     </Card>

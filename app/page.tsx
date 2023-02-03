@@ -10,7 +10,7 @@ export default function Home() {
     <main>
       <div className="grid grid-cols-3 gap-4">
         <PresentationCard
-          eyebrow={profile.name}
+          eyebrow={profile.eyebrow}
           title={profile.title}
           content={profile.content}
           cv_link={profile.cv_link}
