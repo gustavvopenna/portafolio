@@ -15,6 +15,7 @@ export default function ImageCard({ src, alt, ...rest }: ImageCardProps) {
         alt={alt}
         width={400}
         height={400}
+        priority={false}
         className="object-cover w-full h-full"
         {...rest}
       />

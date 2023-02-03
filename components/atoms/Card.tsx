@@ -1,8 +1,9 @@
 import { cn } from "@/helpers";
+import { ClassValue } from "clsx";
 
 interface CardProps {
   span?: 1 | 2 | 3 | 4;
-  className?: string;
+  className?: string | ClassValue[];
   id?: string;
 }
 
