@@ -1,8 +1,9 @@
-import React from "react";
+import { ClassValue } from "clsx";
 
 import Card from "../atoms/Card";
 import IconLinkedIn from "../../public/linkedin.svg";
 import IconGithub from "../../public/github.svg";
+import { cn } from "@/helpers";
 
 const options = {
   linkedin: {
@@ -20,9 +21,10 @@ const options = {
 interface SocialCardProps extends React.PropsWithChildren {
   name: keyof typeof options;
   link: string;
+  className?: string | ClassValue[];
 }
 
-export default function SocialCard({ name, link }: SocialCardProps) {
+export default function SocialCard({ name, link, className }: SocialCardProps) {
   const Icon = options[name].Icon;
 
   return (
@@ -30,7 +32,7 @@ export default function SocialCard({ name, link }: SocialCardProps) {
       <Card
         className={[
           options[name].color,
-          "flex justify-center text-center text-white",
+          "flex justify-center text-center text-white h-full"
         ]}
       >
         <Icon className="w-32" />

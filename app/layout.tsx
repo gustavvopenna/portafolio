@@ -33,13 +33,13 @@ export default function RootLayout({
       <head />
       <body
         className={cn([
-          "text-slate-900 bg-slate-900 relative cursor-default",
+          "text-slate-900 bg-black/20 relative cursor-default mb-20",
           poppins.className,
         ])}
         onMouseMove={handleMouseMove}
       >
         <Highlights x={x} y={y} />
-        <div className="relative z-10 max-w-6xl px-8 py-4 mx-auto">
+        <div className="relative z-10 max-w-6xl px-4 py-4 mx-auto sm:px-8">
           <Navbar />
           {children}
           <AnalyticsWrapper />

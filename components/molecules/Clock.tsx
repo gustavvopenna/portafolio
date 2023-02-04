@@ -19,17 +19,17 @@ export default function Clock() {
   }, []);
 
   return (
-    <div className="font-bold cursor-default tabular-nums">
+    <div className="hidden font-bold cursor-default tabular-nums sm:flex">
       <time>{time}</time>
-      <span className="group">
-        &nbsp;|&nbsp; mexico city
+      <div className="group">
+        <span>&nbsp;|&nbsp; mexico city</span>
         <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
         strokeWidth={2.5}
         stroke="currentColor"
-        className="inline-block w-4 h-4 ml-1 duration-300 group-hover:translate-y-[2px]"
+        className="w-4 h-4 ml-1 duration-300 -translate-y-[2px] group-hover:translate-y-0 hidden lg:inline-block"
       >
         <path
           strokeLinecap="round"
@@ -42,7 +42,7 @@ export default function Clock() {
           d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
         />
       </svg>
-      </span>
+      </div>
     </div>
   );
 }

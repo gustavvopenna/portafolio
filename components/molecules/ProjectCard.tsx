@@ -14,23 +14,22 @@ interface ProjectCardProps {
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <Card
-      span={3}
-      className="flex-row items-start gap-4 text-white bg-black/70 backdrop-blur-sm"
+      className="flex-row items-start col-span-3 gap-4 p-0 text-white bg-black/70 backdrop-blur-sm"
     >
-      <div>
+      <div className="p-10">
         <h2 className="mb-2 text-4xl font-semibold text-amber-300">
           {project.title}
         </h2>
         <p>{project.content}</p>
       </div>
       {project.image && (
-        <div className="h-full bg-gray-900 rounded">
+        <div className="bg-gray-900 rounded h-full max-h-[250px] overflow-hidden">
           <Image
             src={project.image}
             alt={project.title}
             width={350}
             height={400}
-            className="p-2"
+            className="bg-cover opacity-50"
           />
         </div>
       )}

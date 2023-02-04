@@ -32,8 +32,7 @@ export default function PresentationCard({
 
   return (
     <Card
-      span={2}
-      className="items-start hover:scale-100 backdrop-blur-sm bg-white/60"
+      className="items-start col-span-2 hover:scale-100 backdrop-blur-sm bg-white/60"
     >
       {eyebrow && <span className="text-slate-700">{eyebrow}</span>}
       <h1 className="mt-1 mb-4 text-5xl font-semibold">{title}</h1>

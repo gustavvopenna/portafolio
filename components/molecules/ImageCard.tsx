@@ -9,7 +9,7 @@ interface ImageCardProps {
 
 export default function ImageCard({ src, alt, ...rest }: ImageCardProps) {
   return (
-    <Card className="p-0">
+    <Card className="hidden p-0 sm:p-0 lg:flex">
       <Image
         src={src}
         alt={alt}
