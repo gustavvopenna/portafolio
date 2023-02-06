@@ -1,5 +1,6 @@
 import Heading from "../atoms/Heading";
-import ProjectCard, { Project } from "../molecules/ProjectCard";
+import { type Project } from "@/data";
+import ProjectCard from "../molecules/ProjectCard";
 
 interface ProjectsProps {
   projects: Project[];
