@@ -14,7 +14,7 @@ interface ProjectCardProps {
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <Card
-      className="flex-row items-start col-span-3 gap-4 p-0 text-white bg-black/70 backdrop-blur-sm"
+      className="flex-col items-start col-span-3 gap-4 p-0 text-white lg:flex-row bg-black/70 backdrop-blur-sm"
     >
       <div className="p-10">
         <h2 className="mb-2 text-4xl font-semibold text-amber-300">

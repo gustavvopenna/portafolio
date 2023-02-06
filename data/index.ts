@@ -49,15 +49,15 @@ export const profile: Profile = {
   },
   projects: [
     {
-      title: "pokedex with React",
+      title: "pokedex",
       content:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+        "Made with React, React Query, Tailwind and PokeAPI. It's a simple Pokedex that allows you to search for pokemons and see their stats.",
       image: "/pokedex.png",
     },
     {
       title: "bitso clone",
       content:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+        "Made with React Native, Expo and React Navigation. It's a clone of the Bitso app, a mexican crypto exchange.",
       image: "/bitso.png",
     },
   ],
