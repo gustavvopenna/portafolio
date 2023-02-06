@@ -17,6 +17,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <div className="flex gap-2 mt-4">
           <a
             href={project.link}
+            target="_blank"
+            rel="noreferrer"
             className="px-2 py-1 text-xs border border-white rounded-full bg-white/90 text-black/90"
           >
             github
@@ -24,6 +26,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           {project.website && (
             <a
               href={project.website}
+              target="_blank"
+              rel="noreferrer"
               className="px-2 py-1 text-xs border border-white rounded-full"
             >
               website
