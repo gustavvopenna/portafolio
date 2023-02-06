@@ -3,7 +3,7 @@
 import { Poppins } from "@next/font/google";
 import { useMotionValue } from "framer-motion";
 
-import { AnalyticsWrapper } from "@/components/sections/Analytics"
+import { AnalyticsWrapper } from "@/components/sections/Analytics";
 import Navbar from "@/components/molecules/Navbar";
 import Highlights from "@/components/molecules/Highlights";
 import { cn } from "@/helpers";
@@ -39,7 +39,7 @@ export default function RootLayout({
         onMouseMove={handleMouseMove}
       >
         <Highlights x={x} y={y} />
-        <div className="relative z-10 max-w-6xl px-4 py-4 mx-auto sm:px-8">
+        <div className="relative z-10 max-w-6xl p-4 mx-auto sm:px-8">
           <Navbar />
           {children}
           <AnalyticsWrapper />
