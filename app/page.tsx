@@ -18,11 +18,11 @@ export default function Home() {
         />
         <ImageCard src={profile.avatar} alt="avatar picture" />
         <SocialCard name="linkedin" link={profile.links.linkedin} />
-        <EmailCard email={profile.email} />
+        <EmailCard email={profile.email} className="row-start-3 lg:row-start-2 lg:col-start-2" />
         <SocialCard name="github" link={profile.links.github} />
-        <Experience experience={profile.experience} />
-        <Projects projects={profile.projects} />
       </div>
+      <Experience experience={profile.experience} />
+      <Projects projects={profile.projects} />
     </main>
   );
 }

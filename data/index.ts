@@ -68,8 +68,8 @@ export const profile: Profile = {
       link: "https:bejamas.io/",
       company: "Bejamas",
       logo: "/bejamas_logo.png",
-      date: "Sep 2022 - Present",
-      city: "Poland",
+      date: "Sep 2022 - Feb 2023",
+      city: "Poland - remote",
       skills: ["React.js", "Next.js", "Gatsby", "Astro", "Hugo", "Go", "Javascript", "HTML", "CSS", "SASS", "Tailwind", "Git"],
       tags: ["full-time", "contractor", "remote"],
       content: ["test", "test"]
@@ -81,7 +81,7 @@ export const profile: Profile = {
       company: "Globant",
       logo: "/globant_logo.jpeg",
       date: "Sep 2021 - Nov 2021",
-      city: "Mexico City",
+      city: "Mexico City - remote",
       skills: ["React.js", "Javascript", "Redux", "HTML", "CSS", "SASS", "Git"],
       tags: ["full-time", "remote"],
       content: ["test", "test"]
@@ -93,7 +93,7 @@ export const profile: Profile = {
       company: "Worky.mx",
       logo: "/worky_logo.png",
       date: "Sep 2020 - Sep 2021",
-      city: "Mexico City",
+      city: "Mexico City - remote",
       skills: ["Vue.js", "Javascript", "Vuex", "HTML", "CSS", "Tailwind", "Git", "Jest", "Firebase"],
       tags: ["full-time", "remote"],
       content: [
@@ -108,7 +108,7 @@ export const profile: Profile = {
       company: "Rocket.la",
       logo: "/rocket_logo.png",
       date: "Jul 2019 - Sep 2020",
-      city: "Mexico City",
+      city: "Mexico City - onsite",
       skills: ["Vue.js", "Javascript", "HTML", "CSS", "Tailwind", "SASS", "Git"],
       tags: ["full-time", "hybrid"],
       content: [
