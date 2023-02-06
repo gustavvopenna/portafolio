@@ -33,7 +33,7 @@ export default function RootLayout({
       <head />
       <body
         className={cn([
-          "text-slate-900 bg-black/20 relative cursor-default mb-20",
+          "text-slate-900 bg-black/90 relative cursor-default mb-20",
           poppins.className,
         ])}
         onMouseMove={handleMouseMove}
