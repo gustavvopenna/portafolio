@@ -1,5 +1,7 @@
 export type Project = {
   title: string;
+  link: string;
+  website?: string;
   content: string;
   image: string;
 }
@@ -50,12 +52,15 @@ export const profile: Profile = {
   projects: [
     {
       title: "pokedex",
+      link: "https://github.com/gustavvopenna/react-pokedex",
+      website: "https://react-pokedex-gustavvopenna.vercel.app/",
       content:
         "Made with React, React Query, Tailwind and PokeAPI. It's a simple Pokedex that allows you to search for pokemons and see their stats.",
       image: "/pokedex.png",
     },
     {
       title: "bitso clone",
+      link: "https://github.com/gustavvopenna/bitso-clone",
       content:
         "Made with React Native, Expo and React Navigation. It's a clone of the Bitso app, a mexican crypto exchange.",
       image: "/bitso.png",
