@@ -114,7 +114,7 @@ export const profile: Profile = {
       logo: "/rocket_logo.png",
       date: "Jul 2019 - Sep 2020",
       city: "Mexico City - onsite",
-      skills: ["Vue.js", "Javascript", "HTML", "CSS", "Tailwind", "SASS", "Git"],
+      skills: ["Vue.js", "Nuxt.js", "Javascript", "HTML", "CSS", "Tailwind", "SASS", "Git"],
       tags: ["full-time", "hybrid"],
       content: [
         "Developed web app v2 from scratch, taking part in the research, design, and architecture decisions. Thanks to the new technologies we used, several metrics were improved like first-time load, user average time session, monthly active sessions, lighthouse performance, and retention through the onboarding funnel. All of this also was reflected in the increase of the NPS from 40 to 75 and the reduction of bugs reported by 80%.",
@@ -123,7 +123,7 @@ export const profile: Profile = {
       ]
     },
   ],
-  cv_link: "https://res.cloudinary.com/dkr0nb41v/image/upload/v1675364875/docs/GUSTAVO_PEN%CC%83A_RESUME_PDF_ulrlgi.pdf"
+  cv_link: "https://res.cloudinary.com/dkr0nb41v/image/upload/v1675737496/docs/GUSTAVO_PEN%CC%83A__RESUME_ehcoju.pdf"
 };
 
 export const profileEs: Profile = {
@@ -202,10 +202,10 @@ export const profileEs: Profile = {
       logo: "/rocket_logo.png",
       date: "Jul 2019 - Sep 2020",
       city: "Ciudad de México - presencial",
-      skills: ["Vue.js", "Javascript", "HTML", "CSS", "Tailwind", "SASS", "Git"],
+      skills: ["Vue.js", "Nuxt.js", "Javascript", "HTML", "CSS", "Tailwind", "SASS", "Git"],
       tags: ["full-time", "hybrid"],
       content: ["Desarrolle la web app v2 desde cero, participando en la investigación, diseño y decisiones de arquitectura. Gracias a las nuevas tecnologías que usamos, varias métricas se mejoraron como la carga inicial, el tiempo promedio de sesión del usuario, las sesiones activas mensuales, el rendimiento de lighthouse y la retención a través del embudo de adquisición. Todo esto también se reflejó en el aumento del NPS de 40 a 75 y la reducción de los errores reportados en un 80%.", "Desarrollé una nueva función que permite a los usuarios crear sus propios objetivos financieros y rastrear su progreso. Esta función se desarrolló usando Vue.js y Tailwind CSS y se integró con el equipo de backend para permitir a los usuarios guardar sus metas en la base de datos.", "Propuse y lideré la integración de un administrador de contenido (CMS) que aumentó la velocidad de realizar cambios de texto de 15 a 1 minuto y liberó al equipo de tecnología de realizar esos cambios.", "Propuse y lideré la integración de un administrador de contenido (CMS) que aumentó la velocidad de realizar cambios de texto de 15 a 1 minuto y liberó al equipo de tecnología de realizar esos cambios."],
     },
   ],
-  cv_link: "https://res.cloudinary.com/dkr0nb41v/image/upload/v1675364875/docs/GUSTAVO_PEN%CC%83A_RESUME_PDF_ulrlgi.pdf"
+  cv_link: "https://res.cloudinary.com/dkr0nb41v/image/upload/v1675737496/docs/GUSTAVO_PEN%CC%83A__RESUME_ehcoju.pdf"
 };
