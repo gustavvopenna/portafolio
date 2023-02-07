@@ -6,10 +6,16 @@ export default function Navbar() {
     <nav className="flex items-center px-4 py-4 mb-4 bg-white sm:px-10 rounded-xl">
       <ul className="flex items-center flex-grow gap-4">
         <li>
-          <a href="#experience">experience</a>
+          <a href="#experience" className="transition-transform group">
+            <span className="inline-block transition-transform group-hover:translate-y-[1px] duration-300">experi</span>
+            <span className="inline-block transition-transform group-hover:translate-y-[-1px] duration-300">ence</span>
+          </a>
         </li>
         <li>
-          <a href="#projects">projects</a>
+          <a href="#projects" className="transition-transform group">
+            <span className="inline-block transition-transform group-hover:translate-y-[1px] duration-300">proj</span>
+            <span className="inline-block transition-transform group-hover:translate-y-[-1px] duration-300">ects</span>
+          </a>
         </li>
       </ul>
       <Clock />
