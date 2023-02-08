@@ -8,7 +8,7 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <Card className="flex-col items-start col-span-3 gap-4 p-0 text-white lg:flex-row bg-black/70 backdrop-blur-sm">
+    <Card className="flex flex-col p-0 text-white lg:flex-row bg-black/70 backdrop-blur-sm">
       <div className="p-10">
         <h2 className="mb-2 text-4xl font-semibold text-amber-300">
           {project.title}
@@ -36,13 +36,12 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         </div>
       </div>
       {project.image && (
-        <div className="bg-gray-900 rounded h-full max-h-[250px] overflow-hidden">
+        <div className="overflow-hidden rounded-b sm:rounded min-w-[250px]">
           <Image
             src={project.image}
             alt={project.title}
             width={350}
             height={400}
-            className="bg-cover opacity-50"
           />
         </div>
       )}

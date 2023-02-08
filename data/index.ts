@@ -56,14 +56,14 @@ export const profile: Profile = {
       website: "https://react-pokedex-gustavvopenna.vercel.app/",
       content:
         "Made with React, React Query, Tailwind and PokeAPI. It's a simple Pokedex that allows you to search for pokemons and see their stats.",
-      image: "/pokedex.png",
+      image: "/pokemon-mockup-2.png",
     },
     {
       title: "bitso clone",
       link: "https://github.com/gustavvopenna/bitso-clone",
       content:
         "Made with React Native, Expo and React Navigation. It's a clone of the Bitso app, a mexican crypto exchange.",
-      image: "/bitso.png",
+      image: "/bitso-mockup.png",
     },
   ],
   experience: [
@@ -146,13 +146,13 @@ export const profileEs: Profile = {
       website: "https://react-pokedex-gustavvopenna.vercel.app/",
       content:
         "Hecho con React, React Query, Tailwind y PokeAPI. Es un simple Pokedex que te permite buscar pokemones y ver sus estadísticas.",
-      image: "/pokedex.png",
+        image: "/pokemon-mockup-2.png",
     },
     {
       title: "bitso clone",
       link: "https://github.com/gustavvopenna/bitso-clone",
       content: "Hecho con React Native, Expo y React Navigation. Es un clon de la app de Bitso, una exchange de criptomonedas mexicana.",
-      image: "/bitso.png",
+      image: "/bitso-mockup.png",
     },
   ],
   experience: [

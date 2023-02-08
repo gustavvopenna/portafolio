@@ -12,7 +12,7 @@ export default function Projects({ projects }: ProjectsProps) {
       <Heading id="projects">
         projects
       </Heading>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="flex flex-col gap-4">
         {projects.map((project) => (
           <ProjectCard key={project.title} project={project} />
         ))}
