@@ -123,7 +123,7 @@ export const profile: Profile = {
       ]
     },
   ],
-  cv_link: "https://res.cloudinary.com/dkr0nb41v/image/upload/v1675737496/docs/GUSTAVO_PEN%CC%83A__RESUME_ehcoju.pdf"
+  cv_link: "/resume.pdf"
 };
 
 export const profileEs: Profile = {
@@ -207,5 +207,5 @@ export const profileEs: Profile = {
       content: ["Desarrolle la web app v2 desde cero, participando en la investigación, diseño y decisiones de arquitectura. Gracias a las nuevas tecnologías que usamos, varias métricas se mejoraron como la carga inicial, el tiempo promedio de sesión del usuario, las sesiones activas mensuales, el rendimiento de lighthouse y la retención a través del embudo de adquisición. Todo esto también se reflejó en el aumento del NPS de 40 a 75 y la reducción de los errores reportados en un 80%.", "Desarrollé una nueva función que permite a los usuarios crear sus propios objetivos financieros y rastrear su progreso. Esta función se desarrolló usando Vue.js y Tailwind CSS y se integró con el equipo de backend para permitir a los usuarios guardar sus metas en la base de datos.", "Propuse y lideré la integración de un administrador de contenido (CMS) que aumentó la velocidad de realizar cambios de texto de 15 a 1 minuto y liberó al equipo de tecnología de realizar esos cambios.", "Propuse y lideré la integración de un administrador de contenido (CMS) que aumentó la velocidad de realizar cambios de texto de 15 a 1 minuto y liberó al equipo de tecnología de realizar esos cambios."],
     },
   ],
-  cv_link: "https://res.cloudinary.com/dkr0nb41v/image/upload/v1675737496/docs/GUSTAVO_PEN%CC%83A__RESUME_ehcoju.pdf"
+  cv_link: "/resume.pdf"
 };
